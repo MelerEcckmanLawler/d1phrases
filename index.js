@@ -7,7 +7,7 @@ TOTAL = 0
 for (let k in data) {
   TOTAL += data[k].Town + data[k].Mafia + data[k].Neutral
 }
-console.log(TOTAL); process.exit()
+console.log(TOTAL);
 
 let phrases = []
 for (let phrase in data) {
